@@ -8,7 +8,7 @@
 Install the package via npm:
 
 ```bash
-npm install somaCoder2
+npm install somaCoder
 ```
 
 ## Usage
@@ -16,7 +16,7 @@ npm install somaCoder2
 After installation, you can use the `soma` function in your project:
 
 ```js
-const { soma } = require('somaCoder2');
+const { soma } = require('somaCoder');
 
 console.log(soma(1, 2, 3)); // Output: 6
 ```
@@ -44,12 +44,12 @@ This package comes with a test suite powered by Jest. To run the tests, follow t
 
 1. Clone the repository from GitHub:
    ```bash
-   git clone git@github.com:marianamohr/somaCoder2.git
+   git clone git@github.com:marianamohr/somaCoder.git
    ```
    
 2. Navigate into the project directory:
    ```bash
-   cd somaCoder2
+   cd somaCoder
    ```
 
 3. Install the dependencies:
@@ -59,7 +59,7 @@ This package comes with a test suite powered by Jest. To run the tests, follow t
 
 4. Run the tests:
    ```bash
-   npm test
+   npm run test
    ```
 
 The tests include scenarios for:
